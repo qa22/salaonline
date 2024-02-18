@@ -1,0 +1,86 @@
+    <!-- =====List===== -->
+    <div class="list__main">
+      <div class="list__bx">
+        <ul>
+          <h3>វិទ្យាល័យ</h3>
+          <li>
+            <a
+              href="https://karnatakaeducation.org.in/KOER/en/images/thumb/e/e4/Maths_MQP-4_English_2015.pdf/page1-423px-Maths_MQP-4_English_2015.pdf.jpg"
+              >គណិតវិទ្យា
+            </a>
+          </li>
+          <li><a href="#">អក្សរសាស្រ្តខ្មែរ</a></li>
+          <li><a href="#">រូបវិទ្យា</a></li>
+          <li><a href="#">គីមីវិទ្យា</a></li>
+          <li><a href="#">ជីវៈវិទ្យា</a></li>
+          <li><a href="#">ភាសាបរទេស</a></li>
+        </ul>
+        <ul>
+          <h3>ផ្នែក IT</h3>
+          <li><a href="#">Network Engineering</a></li>
+          <li><a href="#">Software Development</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">IT Management</a></li>
+          <li><a href="#">Database Management</a></li>
+        </ul>
+      </div>
+    </div>
+
+=========================================================
+<<<-scroll-bar->>>
+<html>
+    <!-- =====scroll-bar===== -->
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+</html>
+
+#css
+/* ====scroll-bar===== */
+::-webkit-scrollbar {
+  width: 0;
+}
+#scrollPath {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background-color: rgb(230, 231, 233, 1);
+}
+#progressbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 5px;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  animation: animate 5s linear infinite;
+}
+#progressbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  filter: blur(10px);
+}
+#progressbar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  filter: blur(30px);
+}
+@keyframes animate {
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
