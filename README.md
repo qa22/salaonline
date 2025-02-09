@@ -1,4 +1,4 @@
-# SalaOnline - Learning DEMO
+# SalaOnline
 
 ## New Update v3.0
 - [X] UI Update :tada:
