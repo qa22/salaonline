@@ -1,5 +1,4 @@
-# SalaOnline - Learning DEMO <br />
-[click here for demo!](https://qa22.github.io/salaonline/)
+# SalaOnline - Learning DEMO
 
 ## New Update v3.0
 - [X] UI Update :tada:
