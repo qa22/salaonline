@@ -1,5 +1,5 @@
 # SalaOnline
 
-## New Update v3.0
+### New Update v3.0
 - [X] UI Update :tada:
 - [X] Add more data :+1:
